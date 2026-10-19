@@ -1,0 +1,17 @@
+# 로컬 비밀값과 생성된 파일은 Git에 올리지 않는다.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+.venv/
+venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+output/
+tmp/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+[project]
+name = "ai-chat-service-ui"
+version = "2.0.0"
+description = "로그인 복원·AI 대화·운영 화면을 연결한 Streamlit UI"
+requires-python = ">=3.12,<3.13"
+dependencies = ["streamlit>=1.65,<2", "httpx>=0.28,<1", "python-dotenv>=1,<2"]

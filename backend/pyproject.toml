@@ -1,0 +1,17 @@
+[project]
+name = "ai-chat-service-api"
+version = "2.0.0"
+description = "로그인 세션·AI 대화·private 첨부·운영 권한을 연결한 API"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "cryptography>=46,<51",
+    "fastapi[standard]>=0.116,<1.0",
+    "httpx>=0.28,<0.29",
+    "pillow>=11,<13",
+    "pydantic-settings>=2.0,<3.0",
+    "pypdf>=6,<7",
+    "python-dotenv>=1.0,<2.0",
+    "python-multipart>=0.0.20,<1",
+    "redis>=6.0,<7.0",
+    "supabase==2.31.0",
+]
